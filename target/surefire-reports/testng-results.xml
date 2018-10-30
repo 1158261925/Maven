@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="124" started-at="2018-10-28T13:36:53Z" finished-at="2018-10-28T13:36:53Z">
+  <suite name="Suite" duration-ms="149" started-at="2018-10-30T14:14:42Z" finished-at="2018-10-30T14:14:42Z">
     <groups>
+      <group name="orange">
+        <method signature="NewTest.test_001()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_001" class="com.test.two.NewTest"/>
+        <method signature="NewTest.test_002()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_002" class="com.test.two.NewTest"/>
+      </group> <!-- orange -->
+      <group name="banana">
+        <method signature="NewTest.test_003()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_003" class="com.test.two.NewTest"/>
+      </group> <!-- banana -->
+      <group name="apple">
+        <method signature="NewTest.test_004()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_004" class="com.test.two.NewTest"/>
+        <method signature="NewTest.test_005()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_005" class="com.test.two.NewTest"/>
+      </group> <!-- apple -->
     </groups>
-    <test name="Test" duration-ms="124" started-at="2018-10-28T13:36:53Z" finished-at="2018-10-28T13:36:53Z">
+    <test name="Test" duration-ms="149" started-at="2018-10-30T14:14:42Z" finished-at="2018-10-30T14:14:42Z">
       <class name="com.test.two.NewTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.two.NewTest@23ceabc1]" name="beforeClass" is-config="true" duration-ms="35" started-at="2018-10-28T21:36:53Z" finished-at="2018-10-28T21:36:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_001()[pri:0, instance:com.test.two.NewTest@23ceabc1]" name="test_001" duration-ms="2" started-at="2018-10-28T21:36:53Z" finished-at="2018-10-28T21:36:53Z">
+        <test-method status="PASS" signature="test_001()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_001" duration-ms="25" started-at="2018-10-30T22:14:42Z" finished-at="2018-10-30T22:14:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_001 -->
-        <test-method status="PASS" signature="test_002()[pri:0, instance:com.test.two.NewTest@23ceabc1]" name="test_002" duration-ms="2" started-at="2018-10-28T21:36:53Z" finished-at="2018-10-28T21:36:53Z">
+        <test-method status="PASS" signature="test_002()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_002" duration-ms="1" started-at="2018-10-30T22:14:42Z" finished-at="2018-10-30T22:14:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_002 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.two.NewTest@23ceabc1]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-10-28T21:36:53Z" finished-at="2018-10-28T21:36:53Z">
+        <test-method status="PASS" signature="test_003()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_003" duration-ms="0" started-at="2018-10-30T22:14:42Z" finished-at="2018-10-30T22:14:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
+        </test-method> <!-- test_003 -->
+        <test-method status="PASS" signature="test_004()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_004" duration-ms="1" started-at="2018-10-30T22:14:42Z" finished-at="2018-10-30T22:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_004 -->
+        <test-method status="PASS" signature="test_005()[pri:0, instance:com.test.two.NewTest@56f4468b]" name="test_005" duration-ms="0" started-at="2018-10-30T22:14:42Z" finished-at="2018-10-30T22:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_005 -->
       </class> <!-- com.test.two.NewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

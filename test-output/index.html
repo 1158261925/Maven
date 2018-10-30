@@ -5,7 +5,7 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -189,8 +189,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;apple&quot;/&gt;
@@ -275,28 +275,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_001')
 data.setCell(0, 2, 'com.test.two.NewTest')
-data.setCell(0, 3, 25);
+data.setCell(0, 3, 33);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_004')
+data.setCell(1, 1, 'test_003')
 data.setCell(1, 2, 'com.test.two.NewTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 11);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test_002')
 data.setCell(2, 2, 'com.test.two.NewTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 6);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_003')
+data.setCell(3, 1, 'test_005')
 data.setCell(3, 2, 'com.test.two.NewTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 2);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test_005')
+data.setCell(4, 1, 'test_004')
 data.setCell(4, 2, 'com.test.two.NewTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 ms</span>
+              <span class="suite-total-time">Total running time: 54 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -329,19 +329,19 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_002</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-start">56 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_003</span>
-                <span class="method-start">33 ms</span>
+                <span class="method-start">84 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_004</span>
-                <span class="method-start">37 ms</span>
+                <span class="method-start">100 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_005</span>
-                <span class="method-start">40 ms</span>
+                <span class="method-start">106 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
